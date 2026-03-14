@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Home from './home'
-import Page from './page'
+import Home from './Home'
+import Page from './Page'
 
 function App() {
 

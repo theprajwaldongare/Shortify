@@ -36,13 +36,13 @@ const Page = () => {
     }, [urldata])
 
     const copytoclip = async () => {
-        await navigator.clipboard.writeText(`shortify.onrender.com/${shorturl.shorturl}`)
+        await navigator.clipboard.writeText(`shortifyme.onrender.com/${shorturl.shorturl}`)
     }
     const tothelink=()=>{
-        window.location.href=`https://shortify.onrender.com/${shorturl.shorturl}`
+        window.location.href=`https://shortifyme.onrender.com/${shorturl.shorturl}`
     }
     const tothehome=()=>{
-        window.location.href=`https://shortify.onrender.com`
+        window.location.href=`https://shortifyme.onrender.com`
     }
 
     if (loading) {
@@ -70,7 +70,7 @@ const Page = () => {
                 <div className="short">
                     <div className="stext">Your Shortened URL : </div>
                     <div className="send">
-                        <div className="sdata">shortify.onrender.com/{shorturl.shorturl}</div>
+                        <div className="sdata">shortifyme.onrender.com/{shorturl.shorturl}</div>
                         <div className="copy" onClick={copytoclip}>
                             <span className="material-symbols-outlined cpy">
                                 content_copy

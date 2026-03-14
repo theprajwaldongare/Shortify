@@ -1,10 +1,11 @@
 ## Shortify
-Shortify is a URL shorterner for your looooooong URLs !
+Shortify is a fast and secure URL shortener for your looooooong URLs!
 
-### [Go to Shortify](shortifyme.onrender.com)
+[Go to Shortify](https://shortifyme.onrender.com)
 
-Shortify generate 5 digit random characters for your long url, validates for uniqueness and store in the database. Each digit has 62 possiblities from 
-0-9 as 0-9 in url,
-11-35 as A-Z in url,
-36-61 as a-z in url 
-making total 1,47,76,336 different urls !!
+Shortify generates a 5-character random string for your long URL, validates it for uniqueness to prevent collisions, and safely stores it in a MongoDB database. Each character is generated using Base62 encoding, meaning it has 62 possibilities:
+* **0-9** maps to numbers `0-9`
+* **10-35** maps to lowercase letters `a-z`
+* **36-61** maps to uppercase letters `A-Z`
+
+By generating 5 characters, this custom algorithm creates a total of **916,132,832** unique shortened URLs!

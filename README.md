@@ -1,5 +1,5 @@
 ## Shortify
-Shortify is a fast and secure URL shortener for your looooooong URLs!
+Shortify is a secure URL shortener for your looooooong URLs!
 
 [Go to Shortify](https://shortifyme.onrender.com)
 
@@ -8,4 +8,6 @@ Shortify generates a 5-character random string for your long URL, validates it f
 * **10-35** maps to lowercase letters `a-z`
 * **36-61** maps to uppercase letters `A-Z`
 
-By generating 5 characters, this custom algorithm creates a total of **91,61,32,832** unique shortened URLs!
+By generating 5 characters, this creates a total of **91,61,32,832** unique shortened URLs!
+
+### No expiry on URLS
